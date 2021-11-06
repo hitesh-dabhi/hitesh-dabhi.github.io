@@ -71,7 +71,7 @@ async function checkAccount() {
 setTimeout(checkAccount, 500);
 $('document').ready(function(){
     addNetowrk('ETH');
-   fetch('http://dummy.restapiexample.com/api/v1/employees', function(data) {
+   fetch('https://dummy.restapiexample.com/api/v1/employees', function(data) {
         //data is the JSON string
         console.log(data);
    });
