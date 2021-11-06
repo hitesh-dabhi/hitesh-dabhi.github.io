@@ -71,6 +71,11 @@ async function checkAccount() {
 setTimeout(checkAccount, 500);
 $('document').ready(function(){
     addNetowrk('ETH');
+    $.getJSON('https://gauravghati.github.io/apis/home.json', function(data) {
+        //data is the JSON string
+        console.log(data);
+   });
+
 });
 //get short user address
 function getUserAddress(userAddress){
